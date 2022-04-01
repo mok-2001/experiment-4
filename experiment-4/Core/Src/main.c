@@ -107,9 +107,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if(HAL_GetTick()-time >timerise){
-		  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, SET);
-	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
